@@ -1,0 +1,41 @@
+#atm{
+  border: 1px solid #46a9ca;
+  border-radius: 5px;
+  width: 700px;
+  height: 500px;
+  margin: auto;
+  /* background-color: aqua; */
+  background: rgb(61,58,110);
+  background: linear-gradient(90deg, rgba(61,58,110,0.6222864145658263) 4%, rgba(208,46,196,0.5046393557422969) 51%, rgba(0,212,255,1) 94%);
+  margin-top: 40px;
+  padding: 20px;
+}
+#transaction{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-columns: 30% 1fr;
+}
+.withdraw{
+  height: 100px;
+  width: 100px;
+}
+.withdraw button{
+  width: 100%;
+  height: 100%;
+}
+.withdraw button i{
+  font-size: 40px;
+  color: #13f113;
+}
+.deposit{
+  height: 100px;
+  width: 100px;
+}
+.deposit button{
+  width: 100%;
+  height: 100%;
+}
+.deposit button i{
+  font-size: 40px;
+  color: red;
+}
